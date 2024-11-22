@@ -57,16 +57,23 @@ pip install pandas numpy matplotlib seaborn plotly openpyxl
 
 ---
 
-## Output
-### Key Outputs:
-1. **Excel File**: 
-   - Contains detailed analysis, metrics, and visualizations.
-   - Organized into sections for clarity.
-2. **Visualizations**: 
-   - Total Sales by Product
-   - Total Sales by Region
-   - Total Sales Over Time
-   - Average Sales per Transaction by Product
+## Example Outputs
+### PNG Files:
+- **Total Sales by Product** (`total_sales_by_product.png`)  
+  ![Example](total_sales_by_product.png)
+- **Total Sales by Region** (`total_sales_by_region.png`)  
+  ![Example](total_sales_by_region.png)
+- **Total Sales Over Time** (`total_sales_over_time.png`)  
+  ![Example](total_sales_over_time.png)
+- **Average Sales per Transaction by Product** (`average_sales_per_transaction.png`)  
+  ![Example](average_sales_per_transaction.png)
+
+### Excel Files:
+1. **Sales_Data_Analysis.xlsx**  
+   - Contains all key metrics and data analysis outputs in an organized format.  
+
+2. **Sales_Data_Analysis_with_Visualizations.xlsx**  
+   - Includes the same data analysis with embedded visualizations for added clarity.
 
 ---
 
@@ -103,5 +110,10 @@ sales-data-analysis/
 - Integrate a database to store and retrieve sales data.
 - Create a web interface for real-time data visualization and interaction.
 - Include advanced statistical analysis and predictive modeling.
+
+---
+
+## License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
 
 ---
